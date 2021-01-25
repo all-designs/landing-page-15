@@ -1,0 +1,680 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name: Syrah - Wine Shop Html Template         |
+  |    Author: themesitem                                     |
+  |    Author Email: themesitem.cit@gmail.com                 |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Page 
+        |----> Header css
+        |----> Sticky header css
+        |----> Banner Css
+        |----> About Css
+        |----> Product Css
+        |----> Event Css
+        |----> Offer Css
+        |----> Updates Css
+        |----> Footer Css
+        |----> Copyright Css
+3. Our Story Page
+        |----> Inner Page Title css
+        |----> About Part css
+        |----> Achievement Css
+4. Our Product Page
+5. Contact page
+        |----> Left img css
+        |----> Contact-form Css
+6. Error404 Page
+7. Blog-Details
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+/* Google Fonts Css */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arimo:400,700|Great+Vibes|Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* Local Fonts Css */
+
+@font-face {
+    font-family: "adinekirnberg";
+    src: url("../fonts/adinekirnberg-script.regular.eot");
+    src: url("../fonts/adinekirnberg-script.regular.eot")format("embedded-opentype"), url("../fonts/adinekirnberg-script.regular.woff2")format("woff2"), url("../fonts/AdineKirnberg-Script.woff")format("woff"), url("../fonts/adinekirnberg-script.regular.ttf") format("truetype"), url("../fonts/AdineKirnberg-Script.svg")format("svg");
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    vertical-align: middle;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+a,
+button {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    margin-top: 10px;
+    color: #003059;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #7c8595;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*== All Button Style ==*/
+
+.theme_btn {}
+
+.theme_btn:hover {}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+.text-space {}
+
+
+/*== All section title here ==*/
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.custom-heading h3 {
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1;
+    color: #558E0D;
+    text-transform: capitalize;
+}
+
+
+/*===========================
+    Index Page Css Start 
+===========================*/
+
+
+/* ----- 2. Header Social and Contact ----- */
+
+
+/*===========================
+    HEADER CSS 
+===========================*/
+
+
+/* manubar */
+
+.header_area {
+    background: #558E0D;
+}
+
+.nav {
+    padding: 0;
+}
+
+.header_area .nav .logo {
+    position: relative;
+    padding: 35px 0;
+}
+
+.header_area .nav .logo img {
+    position: relative;
+    z-index: 9999;
+}
+
+.contact-detail {
+    padding-top: 30px;
+}
+
+.contact-detail i {
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.contact-detail h3 {
+    font-size: 1.125rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-detail span {
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/*===========================
+    BANNER CSS 
+===========================*/
+
+.banner_area .banner_img {}
+
+.banner_area .banner_img img {
+    height: 500px;
+}
+
+
+/*===========================
+    SERVICE CSS 
+===========================*/
+
+.btn {
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: .1em;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #558E0D;
+    border-color: #558E0D;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.782rem 0.921rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+
+/*===========================
+    SERVICE CSS 
+===========================*/
+
+
+/*===========================
+    SERVICE DEATILS CSS 
+===========================*/
+
+.services_details {}
+
+.services_details .content {
+    text-align: initial;
+    position: relative;
+    border: 3px solid #558E0D;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.services_details .content:hover {
+    border: 3px solid #558E0D;
+}
+
+.services_details .content .type {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.services_details .content .type img {
+    width: 61px;
+    height: 55px;
+}
+
+.services_details .content .text {
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.services_details .content .text h3 {
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin-bottom: 10px;
+}
+
+
+/*===========================
+	CLIENT PART CSS 
+===========================*/
+
+.client_part {
+    background: #2E2E3B;
+}
+
+.client_part .custom-heading.section-heading h3 {
+    color: #fff;
+}
+
+.client_slider {}
+
+.client_slider .single_slider {
+    width: 570px;
+    padding-right: 30px;
+}
+
+.single_slider .item {
+    background-color: #fff;
+    padding: 30px 25px;
+    padding-bottom: 57px;
+    position: relative;
+}
+
+.single_slider .item .quote {
+    position: absolute;
+    top: 55%;
+    right: 25px;
+    color: #999999;
+    font-size: 32px;
+}
+
+.single_slider .item .comment_text {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #888;
+    font-size: 0.9375rem;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    border: none;
+}
+
+.single_slider .item .comment_text P {}
+
+.single_slider .item .user_name {
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    margin: 0 0 -70px -25px;
+    line-height: 1;
+    position: relative;
+    background: #558E0D;
+}
+
+.single_slider .item .user_name .name {
+    display: block;
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+}
+
+.single_slider .item .user_name .lucation {
+    font-style: italic;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/*===========================
+    EVENT CSS 
+===========================*/
+
+.request_part {}
+
+.request_part .instruction {}
+
+.instruction .text {}
+
+.instruction .text h5 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.instruction .ins_list {}
+
+.instruction .ins_list li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.instruction .ins_list li input {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+.instruction .ins_list li label {
+    font-size: 18px;
+    margin-top: -3px;
+}
+
+.request_part .request_form {
+    margin-top: 80px;
+}
+
+.request_part .request_form input {}
+
+.request_part .request_form input::placeholder {
+    color: #dddddd;
+}
+
+.request_part .request_form .form_control {
+    display: block;
+    width: 100%;
+    padding: 0.78125rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background: #65656F;
+    border: 2px solid #65656F;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.request_part .request_form textarea {
+    margin-bottom: 10px;
+    background-color: #65656F;
+    color: #FFFFFF;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.request_part .request_form textarea::placeholder {
+    color: #dddddd;
+}
+
+
+/*===========================
+    CONTUCT US CSS 
+===========================*/
+
+.contuct {}
+
+.contuct .contuct_info {}
+
+.contuct .contuct_info ul li {
+    margin-bottom: 5px;
+}
+
+.contuct .contuct_info ul li span {}
+
+.contuct .contuct_info ul li i {
+    margin-right: 5px;
+}
+
+.contuct .contuct_info ul li .title {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.contuct .contuct_info .mail {
+    margin-bottom: 20px;
+}
+
+.contuct .contuct_info h4 {
+    margin-bottom: 10px;
+}
+
+.contuct .contuct_info .fax {}
+
+.contuct .contuct_info .fax h4 {}
+
+
+/* sarvices part */
+
+.service_area_info {}
+
+.service_area_info .area_text {}
+
+.service_area_info .area_text h4 {
+    margin-bottom: 10px;
+}
+
+.service_area_info .area_text ul {}
+
+.service_area_info .area_text ul li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.service_area_info .area_text ul li i {
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.service_area_info .area_text ul li span {}
+
+.service_area_info .area_map {}
+
+
+/*===========================
+    SUPPLIES PART​ CSS 
+===========================*/
+
+.supplies {
+    background: #558E0D;
+    padding-bottom: 70px;
+}
+
+.supplies .qrcode {
+    margin-top: 35px;
+}
+
+.supplies .qrcode img {
+    width: 110px;
+}
+
+.supplies .supplies_list {}
+
+.supplies .supplies_list h4 {
+    margin-bottom: 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.supplies .supplies_list ul {}
+
+.supplies .supplies_list ul li {
+    color: #f1f1f1;
+    margin-bottom: 9px;
+    display: flex;
+}
+
+.supplies .list_tow {
+    margin-top: 65px;
+}
+
+.supplies .supplies_list ul li i {
+    padding-right: 5px;
+}
+
+.supplies .supplies_list ul li span {
+    margin-top: -3px;
+}
+
+.tool_gallery {}
+
+.tool_gallery h4 {
+    margin-bottom: 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+
+/*===========================
+    FOOTER-PART CSS 
+===========================*/
+
+footer {
+    background: #232331;
+}
+
+footer .copyright_text {
+    padding: 10px 0;
+    padding-top: 30px;
+}
+
+
+/* ========================================================== */
+
+
+/* 			                02. FOOTER                        */
+
+
+/* ========================================================== */
+
+
+/*===========================
+    COPYRIGHT-PART CSS 
+===========================*/
+
+
+/* =========================----- Back-to-top button css -----====================== */
+
+.back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #558E0D;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+
+.back_to_top:hover {
+    background: #cf851e;
+    color: #fff;
+}

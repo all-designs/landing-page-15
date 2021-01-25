@@ -1,0 +1,135 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /*======================
+    Index Page Css
+========================*/
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .contact-detail h3 {
+        font-size: 15px;
+    }
+    .contact-detail span {
+        font-size: 12px;
+    }
+    .instruction .ins_list li input {
+        margin-right: 10px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mt-md-50 {
+        margin-top: 50px;
+    }
+    /*======================
+    Index Page Css
+========================*/
+    .section-heading {
+        margin-bottom: 45px;
+    }
+    .contact-detail {
+        display: none;
+    }
+    .contuct .contuct_info {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .contuct .contuct_info .mail {
+        width: 50%;
+    }
+    .contuct .contuct_info .fax {
+        width: 50%;
+    }
+    .tool_gallery {
+        margin-top: 50px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mt-md-50 {
+        margin-top: 50px;
+    }
+    /*======================
+    Index Page Css
+========================*/
+    .section-heading {
+        margin-bottom: 45px;
+    }
+    .contact-detail {
+        display: none;
+    }
+    .contuct .contuct_info {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .contuct .contuct_info .mail {
+        width: 50%;
+    }
+    .contuct .contuct_info .fax {
+        width: 50%;
+    }
+    .tool_gallery {
+        margin-top: 50px;
+    }
+    .supplies .supplies_list {
+        margin-top: 50px;
+    }
+    .supplies .list_tow {
+        margin-top: 116px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media only screen and (max-width: 575.98px) {
+    .mt-md-50 {
+        margin-top: 50px;
+    }
+    .mt-xs-15 {
+        margin-top: 15px;
+    }
+    /*======================
+    Index Page Css
+========================*/
+    .section-heading {
+        margin-bottom: 45px;
+    }
+    .contact-detail {
+        display: none;
+    }
+    .services_details .content .type {
+        display: none;
+    }
+    .contuct .contuct_info {
+        margin-bottom: 50px;
+    }
+    .tool_gallery {
+        margin-top: 50px;
+    }
+    .supplies .supplies_list.mobile_margin {
+        margin: 0;
+    }
+    .supplies .list_tow {
+        margin: 0;
+    }
+    .supplies .qrcode {
+        text-align: center;
+    }
+    .logo.footer {
+        text-align: center;
+    }
+}
